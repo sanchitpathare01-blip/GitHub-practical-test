@@ -14,49 +14,80 @@
 
     <!-- Hero / Introduction Section -->
     <section class="hero-section" id="hero">
-      <div class="hero-content">
-        <span class="badge">Welcome to my portfolio</span>
-        <h1 class="hero-title">Hi, I'm <span class="highlight">Sanchit Pathare</span></h1>
-        <p class="hero-subtitle">
-          Computer Science & IT Student based in Pune, Maharashtra
-        </p>
-        <p class="hero-description">
-          Passionate about Software Development, Full Stack Development, and Artificial Intelligence.
-          Building smart, reliable, and user-friendly digital solutions.
-        </p>
-        
-        <div class="hero-buttons">
-          <button id="welcome-btn" class="btn btn-primary">Say Hello 👋</button>
-          <a href="#projects" class="btn btn-outline">Explore Projects</a>
+      <div class="hero-badge-container">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span>Open to Software & AI Opportunities • Pune, India</span>
         </div>
+      </div>
 
-        <!-- Interactive JavaScript Welcome Box -->
-        <div id="welcome-message" class="welcome-box hidden">
-          <p id="welcome-text"></p>
+      <div class="hero-header-content">
+        <div class="hero-avatar">SP</div>
+        <div class="hero-text-block">
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Sanchit Pathare</span>
+          </h1>
+          <p class="hero-subtitle">
+            Computer Science & IT Student at Ajeenkya D Y Patil University
+          </p>
         </div>
+      </div>
+
+      <p class="hero-description">
+        Passionate about <strong>Software Development</strong>, <strong>Full Stack Engineering</strong>, and <strong>Artificial Intelligence</strong>. 
+        I enjoy turning complex challenges into clean, reliable, and user-friendly digital applications.
+      </p>
+
+      <div class="hero-buttons">
+        <button id="welcome-btn" class="btn btn-primary">Say Hello 👋</button>
+        <a href="#projects" class="btn btn-secondary">Explore Projects ↓</a>
+      </div>
+
+      <!-- Interactive JavaScript Welcome Box -->
+      <div id="welcome-message" class="welcome-box hidden">
+        <div class="welcome-icon">💬</div>
+        <p id="welcome-text"></p>
       </div>
     </section>
 
     <!-- About Me Section -->
     <section class="section" id="about">
-      <h2 class="section-title">About Me</h2>
+      <div class="section-header">
+        <span class="section-tag">Introduction</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
       <div class="card about-card">
         <p>
-          I am a dedicated second-year Computer Science and Information Technology undergraduate at Ajeenkya D Y Patil University, Pune. 
-          I have a strong foundation in core computer science subjects, programming, and web development.
+          I am a dedicated second-year Computer Science and Information Technology undergraduate based in Pune, Maharashtra. 
+          I have a strong foundation in core computer science fundamentals, programming logic, and modern web application development.
         </p>
         <p>
-          My technical curiosity drives me toward exploring modern Full Stack Development and building intelligent systems with Artificial Intelligence. 
-          I enjoy solving challenging problems, participating in hackathons, and collaborating on impactful tech projects.
+          My technical journey centers on exploring full stack architectures and building intelligent tools with artificial intelligence. 
+          Whether participating in hackathons or collaborating on engineering solutions, I am driven by curiosity and continuous learning.
         </p>
+
         <div class="info-grid">
-          <div class="info-item">
-            <span class="info-label">Location:</span>
-            <span class="info-value">Pune, Maharashtra, India</span>
+          <div class="info-box">
+            <span class="info-icon">📍</span>
+            <div>
+              <span class="info-label">Location</span>
+              <span class="info-value">Pune, Maharashtra, India</span>
+            </div>
           </div>
-          <div class="info-item">
-            <span class="info-label">Focus Areas:</span>
-            <span class="info-value">Software Dev, Full Stack & AI</span>
+          <div class="info-box">
+            <span class="info-icon">🎯</span>
+            <div>
+              <span class="info-label">Focus Areas</span>
+              <span class="info-value">Software Dev, Full Stack & AI</span>
+            </div>
+          </div>
+          <div class="info-box">
+            <span class="info-icon">🎓</span>
+            <div>
+              <span class="info-label">Academic Score</span>
+              <span class="info-value">9.1 CGPA</span>
+            </div>
           </div>
         </div>
       </div>
@@ -64,30 +95,45 @@
 
     <!-- Education Section -->
     <section class="section" id="education">
-      <h2 class="section-title">Education</h2>
+      <div class="section-header">
+        <span class="section-tag">Academics</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+
       <div class="card education-card">
         <div class="education-header">
-          <div>
-            <h3 class="education-degree">B.Tech in Computer Science and IT</h3>
-            <p class="education-school">Ajeenkya D Y Patil University, Pune</p>
+          <div class="education-info">
+            <div class="edu-icon">🎓</div>
+            <div>
+              <h3 class="education-degree">B.Tech in Computer Science and IT</h3>
+              <p class="education-school">Ajeenkya D Y Patil University, Pune</p>
+            </div>
           </div>
-          <div class="cgpa-badge">
-            <span>CGPA: 9.1</span>
+          <div class="cgpa-pill">
+            <span class="cgpa-label">Current CGPA</span>
+            <span class="cgpa-score">9.1 / 10</span>
           </div>
         </div>
         <p class="education-details">
-          Focusing on Data Structures & Algorithms, Object-Oriented Programming, Database Management, and Web Technologies.
+          Coursework covers Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, and Web Application Development.
         </p>
       </div>
     </section>
 
     <!-- Technical Skills Section -->
     <section class="section" id="skills">
-      <h2 class="section-title">Technical Skills</h2>
+      <div class="section-header">
+        <span class="section-tag">Capabilities</span>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+
       <div class="skills-grid">
         
         <div class="card skill-card">
-          <h3 class="skill-category">Programming Languages</h3>
+          <div class="skill-card-header">
+            <span class="skill-category-icon">💻</span>
+            <h3 class="skill-category">Programming Languages</h3>
+          </div>
           <div class="skill-tags">
             <span class="tag">C</span>
             <span class="tag">C++</span>
@@ -97,10 +143,13 @@
         </div>
 
         <div class="card skill-card">
-          <h3 class="skill-category">Web Development</h3>
+          <div class="skill-card-header">
+            <span class="skill-category-icon">🌐</span>
+            <h3 class="skill-category">Web Technologies</h3>
+          </div>
           <div class="skill-tags">
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
             <span class="tag">JavaScript</span>
             <span class="tag">React</span>
             <span class="tag">Node.js</span>
@@ -108,14 +157,20 @@
         </div>
 
         <div class="card skill-card">
-          <h3 class="skill-category">Database Management</h3>
+          <div class="skill-card-header">
+            <span class="skill-category-icon">🗄️</span>
+            <h3 class="skill-category">Database Management</h3>
+          </div>
           <div class="skill-tags">
             <span class="tag">MySQL</span>
           </div>
         </div>
 
         <div class="card skill-card">
-          <h3 class="skill-category">Developer Tools</h3>
+          <div class="skill-card-header">
+            <span class="skill-category-icon">⚙️</span>
+            <h3 class="skill-category">Developer Tools</h3>
+          </div>
           <div class="skill-tags">
             <span class="tag">Git</span>
             <span class="tag">GitHub</span>
@@ -127,17 +182,23 @@
 
     <!-- Projects Section -->
     <section class="section" id="projects">
-      <h2 class="section-title">Featured Projects</h2>
+      <div class="section-header">
+        <span class="section-tag">Portfolio Work</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
       <div class="projects-grid">
 
         <div class="card project-card">
-          <div class="project-header">
-            <h3 class="project-title">GuardianShield</h3>
-            <span class="project-badge">AI / Security</span>
+          <div class="project-top">
+            <div class="project-header">
+              <h3 class="project-title">GuardianShield</h3>
+              <span class="project-badge">AI / Security</span>
+            </div>
+            <p class="project-description">
+              An AI-powered scam and fraud detection platform engineered to analyze digital threat patterns and protect users from fraudulent online transactions.
+            </p>
           </div>
-          <p class="project-description">
-            An AI-powered scam and fraud detection platform designed to detect malicious patterns and protect users from fraudulent digital transactions.
-          </p>
           <div class="project-tech">
             <span class="tag-small">Python</span>
             <span class="tag-small">AI / ML</span>
@@ -146,43 +207,49 @@
         </div>
 
         <div class="card project-card">
-          <div class="project-header">
-            <h3 class="project-title">CensusAI Connect</h3>
-            <span class="project-badge">AI / Data</span>
+          <div class="project-top">
+            <div class="project-header">
+              <h3 class="project-title">CensusAI Connect</h3>
+              <span class="project-badge">AI / Data</span>
+            </div>
+            <p class="project-description">
+              An AI-powered demographic data processing platform that streamlines large-scale census analysis and extracts intelligent population insights.
+            </p>
           </div>
-          <p class="project-description">
-            An AI-powered demographic data processing platform that streamlines census analysis and provides intelligent population data insights.
-          </p>
           <div class="project-tech">
             <span class="tag-small">Python</span>
             <span class="tag-small">Data Processing</span>
-            <span class="tag-small">AI</span>
+            <span class="tag-small">AI Analytics</span>
           </div>
         </div>
 
         <div class="card project-card">
-          <div class="project-header">
-            <h3 class="project-title">Scholarship Eligibility Checker</h3>
-            <span class="project-badge">Web Application</span>
+          <div class="project-top">
+            <div class="project-header">
+              <h3 class="project-title">Scholarship Eligibility Checker</h3>
+              <span class="project-badge">Web Application</span>
+            </div>
+            <p class="project-description">
+              An interactive web application designed to help students quickly verify and assess their eligibility criteria for various academic scholarships and schemes.
+            </p>
           </div>
-          <p class="project-description">
-            A comprehensive web application designed to help students easily evaluate their eligibility criteria for various academic scholarships and schemes.
-          </p>
           <div class="project-tech">
-            <span class="tag-small">HTML</span>
-            <span class="tag-small">CSS</span>
+            <span class="tag-small">HTML5</span>
+            <span class="tag-small">CSS3</span>
             <span class="tag-small">JavaScript</span>
           </div>
         </div>
 
         <div class="card project-card">
-          <div class="project-header">
-            <h3 class="project-title">StudyMate AI</h3>
-            <span class="project-badge">AI / EdTech</span>
+          <div class="project-top">
+            <div class="project-header">
+              <h3 class="project-title">StudyMate AI</h3>
+              <span class="project-badge">AI / EdTech</span>
+            </div>
+            <p class="project-description">
+              A personal AI-driven study assistant designed to support students with adaptive learning guidance, study schedules, and rapid concept clarifications.
+            </p>
           </div>
-          <p class="project-description">
-            An interactive AI-powered study assistant built to support students with personalized learning, study planning, and quick concept clarifications.
-          </p>
           <div class="project-tech">
             <span class="tag-small">Python</span>
             <span class="tag-small">AI Assistant</span>
@@ -195,22 +262,26 @@
 
     <!-- Achievements Section -->
     <section class="section" id="achievements">
-      <h2 class="section-title">Achievements</h2>
+      <div class="section-header">
+        <span class="section-tag">Recognition</span>
+        <h2 class="section-title">Achievements</h2>
+      </div>
+
       <div class="achievements-grid">
         
         <div class="card achievement-card">
-          <div class="achievement-icon">🏆</div>
-          <div>
+          <div class="achievement-icon-wrapper gold">🏆</div>
+          <div class="achievement-text">
             <h3 class="achievement-title">1st Rank - Internal Smart India Hackathon</h3>
-            <p class="achievement-detail">Secured first place in the university selection round of the Smart India Hackathon.</p>
+            <p class="achievement-detail">Secured 1st place in the university-level internal selection round for Smart India Hackathon.</p>
           </div>
         </div>
 
         <div class="card achievement-card">
-          <div class="achievement-icon">🥈</div>
-          <div>
+          <div class="achievement-icon-wrapper silver">🥈</div>
+          <div class="achievement-text">
             <h3 class="achievement-title">2nd Place - Sunstone Arena Hackathon 2.0</h3>
-            <p class="achievement-detail">Earned second position for presenting innovative technological solutions under tight competition.</p>
+            <p class="achievement-detail">Won second position after presenting high-impact technological solutions under competitive criteria.</p>
           </div>
         </div>
 
@@ -219,31 +290,35 @@
 
     <!-- Certifications Section -->
     <section class="section" id="certifications">
-      <h2 class="section-title">Certifications</h2>
+      <div class="section-header">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+
       <div class="certifications-grid">
         
         <div class="card cert-card">
-          <div class="cert-bullet"></div>
+          <div class="cert-check">✓</div>
           <span class="cert-name">Cisco CCNA Cyber Ops</span>
         </div>
 
         <div class="card cert-card">
-          <div class="cert-bullet"></div>
+          <div class="cert-check">✓</div>
           <span class="cert-name">AWS Cloud Certificate</span>
         </div>
 
         <div class="card cert-card">
-          <div class="cert-bullet"></div>
+          <div class="cert-check">✓</div>
           <span class="cert-name">Building Agents using Python and AI</span>
         </div>
 
         <div class="card cert-card">
-          <div class="cert-bullet"></div>
+          <div class="cert-check">✓</div>
           <span class="cert-name">App Development Bootcamp</span>
         </div>
 
         <div class="card cert-card">
-          <div class="cert-bullet"></div>
+          <div class="cert-check">✓</div>
           <span class="cert-name">Everything Web</span>
         </div>
 
@@ -252,20 +327,24 @@
 
     <!-- Contact Section -->
     <section class="section" id="contact">
-      <h2 class="section-title">Get In Touch</h2>
+      <div class="section-header">
+        <span class="section-tag">Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+
       <div class="card contact-card">
         <p class="contact-intro">
-          I'm always open to discussing new opportunities, collaborating on innovative projects, or talking tech. Feel free to connect!
+          I am always excited to discuss software development opportunities, AI projects, and innovative tech ideas. Feel free to connect!
         </p>
 
         <div class="contact-links">
-          <a href="https://github.com/sanchitpathare01-blip" target="_blank" rel="noopener noreferrer" class="contact-btn">
-            <span class="contact-btn-icon">💻</span>
+          <a href="https://github.com/sanchitpathare01-blip" target="_blank" rel="noopener noreferrer" class="contact-btn github">
+            <span class="contact-icon">💻</span>
             <span>GitHub Profile</span>
           </a>
 
-          <a href="https://www.linkedin.com/in/sanchitpathare" target="_blank" rel="noopener noreferrer" class="contact-btn">
-            <span class="contact-btn-icon">🔗</span>
+          <a href="https://www.linkedin.com/in/sanchitpathare" target="_blank" rel="noopener noreferrer" class="contact-btn linkedin">
+            <span class="contact-icon">🔗</span>
             <span>LinkedIn Profile</span>
           </a>
         </div>
